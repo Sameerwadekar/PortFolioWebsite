@@ -149,7 +149,7 @@ function Projects() {
                 darkMode ? "text-black" : "text-white"
               }`}
             >
-              <h5 className="card-title fw-bold">Themewiz-Digital Agency</h5>
+              <h5 className="card-title fw-bold">MarkOnline- Student Attendance Management System</h5>
               <p className={`card-text small ${darkMode ? "text-black" : "text-white"}`}>
                 A web-based attendance management system designed for teachers to efficiently record and track student attendance. The system allows faculty to create attendance records, mark students as present/absent, and access previous attendance with PDF export functionality. It supports multiple courses and year levels, making it simple to manage large student groups.
               </p>
@@ -174,24 +174,55 @@ function Projects() {
               darkMode ? "whiteBG" : "blackBG"
             }`}
           >
-            <img src="/assets/theemwiz.avif" className="card-img-top project-img" alt="theemwiz" />
+            <img src="/assets/portfoilo.webp" className="card-img-top project-img" alt="portfolio" />
             <div
               className={`card-body d-flex flex-column ${
                 darkMode ? "text-black" : "text-white"
               }`}
             >
-              <h5 className="card-title fw-bold">Themewiz-Digital Agency</h5>
+              <h5 className="card-title fw-bold">PortFolio Website</h5>
               <p className={`card-text small ${darkMode ? "text-black" : "text-white"}`}>
-                A digital company website for ThemWiz that showcases services, portfolio, and contact details. Built with Html, Bootstrap, and CSS for a responsive, user-friendly experience.
+                A personal portfolio website showcasing my skills, projects, and experience as a budding full-stack developer. The site is designed with a clean, modern, and responsive interface to provide an engaging user experience across devices. Visitors can explore my projects, technical skills, and achievements, and easily get in touch via the contact section.
               </p>
               <p className={`small mb-3 ${darkMode ? "text-black" : "text-white"}`}>
-                <strong>Tech stack: </strong> HTML, CSS, BootStrap.
+                <strong>Tech stack: </strong> HTML, CSS, BootStrap, React.
               </p>
               <div className="mt-auto d-flex gap-3">
-                <a href="https://theemwiz-alpha.vercel.app/" target="_blank" className={darkMode ? "text-black" : "text-white"}>
+                <a href="https://port-folio-website-kappa.vercel.app/" target="_blank" className={darkMode ? "text-black" : "text-white"}>
                   <i className="bi bi-link-45deg"></i> Live Preview
                 </a>
-                <a href="https://github.com/Sameerwadekar/Theemwiz" target="_blank" className={darkMode ? "text-black" : "text-white"}>
+                <a href="https://github.com/Sameerwadekar/PortFolioWebsite" target="_blank" className={darkMode ? "text-black" : "text-white"}>
+                  <i className="bi bi-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* project 7 */}
+        <div className="col-md-4">
+          <div
+            className={`card project-card h-100 shadow-sm ${
+              darkMode ? "whiteBG" : "blackBG"
+            }`}
+          >
+            <img src="/assets/event.avif" className="card-img-top project-img" alt="event" />
+            <div
+              className={`card-body d-flex flex-column ${
+                darkMode ? "text-black" : "text-white"
+              }`}
+            >
+              <h5 className="card-title fw-bold">Event Management System- MySql</h5>
+              <p className={`card-text small ${darkMode ? "text-black" : "text-white"}`}>
+                A robust Event Management System built with MySQL to efficiently manage colleges, events, teams, visitors, sponsors, and attendance. It uses relational database principles with well-structured tables, primary/foreign keys, and junction tables to handle complex relationships. Includes stored procedures, functions, and triggers to automate tasks like counting visitors and maintaining logs.
+              </p>
+              <p className={`small mb-3 ${darkMode ? "text-black" : "text-white"}`}>
+                <strong>Tech stack: </strong> MySql
+              </p>
+              <div className="mt-auto d-flex gap-3">
+                <a href="/assets/Event Management System(document).pdf" target="_blank" className={darkMode ? "text-black" : "text-white"}>
+                  <i className="bi bi-link-45deg"></i> Live Preview
+                </a>
+                <a href="https://github.com/Sameerwadekar/Event-Management-System-MySql" target="_blank" className={darkMode ? "text-black" : "text-white"}>
                   <i className="bi bi-github"></i> View Code
                 </a>
               </div>
